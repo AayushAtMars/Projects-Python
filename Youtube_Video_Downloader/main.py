@@ -1,0 +1,10 @@
+import pytube
+print()
+print("*****************Mahan Aayush YouTube Video Downloader*****************")
+print()
+link=input("Enter Youtube Video Link : ")
+yt=pytube.YouTube(link)
+print("Downloading...........")
+stream=yt.streams.get_highest_resolution()
+stream.download()
+print("Downloaded",link)
