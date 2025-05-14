@@ -1,0 +1,38 @@
+
+
+OpenAI response for query:  hello Nexus using AI write a program to add two numbers in Python 
+              ********************************
+
+# Import necessary libraries
+import numpy as np
+import tensorflow as tf
+from tensorflow import keras
+
+# Define a function to add two numbers
+def add_numbers(x1, x2):
+    return x1 + x2
+
+# Get input from user
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+# Call add_numbers function
+result = add_numbers(num1, num2)
+
+# Print result
+print("The sum
+
+OpenAI response for query:  using AI write a program to add three numbers in Python 
+              ********************************
+
+# Define a function to add three numbers
+def add_three_numbers(num1, num2, num3):
+    # Calculate the sum of the numbers
+    sum = num1 + num2 + num3
+    # Print the result
+    print("The sum of the three numbers is:", sum)
+
+# Get input from the user
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+num3 = int(input("

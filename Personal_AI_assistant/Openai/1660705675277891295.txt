@@ -1,0 +1,20 @@
+
+
+OpenAI response for query:  using AI write a program to add two number two and three numbers in Python 
+              ********************************
+
+#Function to add two numbers
+def add_two_numbers(num1, num2):
+    return num1 + num2
+
+#Function to add three numbers
+def add_three_numbers(num1, num2, num3):
+    return num1 + num2 + num3
+
+#Taking input from the user
+print("Enter two numbers: ")
+num1 = int(input())
+num2 = int(input())
+
+#Calling add_two_numbers() function
+result = add_two_numbers(num1, num
